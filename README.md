@@ -34,8 +34,7 @@ rc = RestCountryAPI()
 rc.init_app(app)
 ```
 
-##Usage in App
-
+## Usage in App
 ```python
 
 
