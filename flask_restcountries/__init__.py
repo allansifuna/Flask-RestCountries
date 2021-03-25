@@ -2,7 +2,7 @@ from flask import Blueprint, current_app
 from restcountries import RestCountryApiV2
 
 
-class RestCountryAPI(object):
+class CountriesAPI(RestCountryApiV2):
     def __init__(self, app=None, **kwargs):
 
         if app:
@@ -37,6 +37,6 @@ class RestCountryAPI(object):
             ' an application context.'
         )
 
-    @property
-    def RestCountriesAPI(self):
-        return RestCountryApiV2
+    # @property
+    # def CountriesAPI(self):
+    #     return RestCountryApiV2
