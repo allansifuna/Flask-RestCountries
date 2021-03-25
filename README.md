@@ -22,16 +22,16 @@ from flask_restcountries import RestCountryAPI
 app = Flask(__name__)
 
 
-rest_country_api = RestCountryAPI(app)
+rc = RestCountryAPI(app)
 ```
 
 
 # if you are using blueprints
 ```python
 from flask_mpesa import RestCountryAPI
-rest_country_api = RestCountryAPI()
+rc = RestCountryAPI()
 
-rest_country_api.init_app(app)
+rc.init_app(app)
 ```
 
 ##Usage in App
@@ -42,7 +42,7 @@ rest_country_api.init_app(app)
 @app.route('/get-all')
 def get_all_countries():
     """all_countries is a list of Country Objects"""
-    all_countries = rest_country_api.RestCountriesAPI.get_all()
+    all_countries = rc.RestCountriesAPI.get_all()
     return render_template("example.html", all_countries=all_countries)
 
 
