@@ -3,7 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/allansifuna/Flask-RestCountries/badge.svg?branch=main)](https://coveralls.io/github/allansifuna/Flask-RestCountries?branch=main)
 
 # Flask-RestCountries
-Flask - RestCountries provides a simple intergration for [restcountries.eu](https://restcountries.eu) API with Flask Applications.
+[Flask-RestCountries](https://pypi.org/project/Flask-RestCountries/) provides a simple intergration for [restcountries.eu](https://restcountries.eu) API with Flask Applications.
 
 # Installation
 
