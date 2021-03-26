@@ -89,6 +89,33 @@ countries=rc.get_countries_by_region("Africa")
 countries=rc.get_countries_by_subregion("Eastern Africa")
 ```
 
+## Attributes of the Country object returned per each request
+    - top_level_domain
+    - alpha2_code
+    - alpha3_code
+    - currencies
+    - capital
+    - calling_codes
+    - alt_spellings
+    - relevance
+    - region
+    - subregion
+    - translations
+    - population
+    - latlng
+    - demonym
+    - area
+    - gini
+    - timezones
+    - borders
+    - native_name
+    - name
+    - numeric_code
+    - languages
+    - flag
+    - regional_blocs
+    - cioc
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
