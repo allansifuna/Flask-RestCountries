@@ -46,6 +46,49 @@ def get_all_countries():
 
 
 ```
+
+## Other Useful Methods
+
+# Get Countries By Calling Code string of a country. E.g. '254'.
+```python
+countries=rc.get_countries_by_calling_code("+254")
+```
+
+# Get a Country By Alpha code string of a country. E.g. 'ke'.
+```python
+countries=rc.get_country_by_country_code("ke")
+```
+
+# Get Countries By Capital string of a country. E.g. 'Nairobi'
+```python
+countries=rc.get_countries_by_capital("Nairobi")
+```
+
+# Get Countries By Currency string of a country. E.g. 'KES'.
+```python
+countries=rc.get_countries_by_currency("KES")
+```
+
+# Get Countries By Language string of a country. E.g. 'sw'.
+```python
+countries=rc.get_countries_by_language("sw")
+```
+
+# Get Countries By Name string of a country. E.g. 'Kenya'.
+```python
+countries=rc.get_countries_by_name("Kenya")
+```
+
+# Get Countries By Region string of a country. E.g. 'Africa'.
+```python
+countries=rc.get_countries_by_region("Africa")
+```
+
+# Get Countries By Subregion string of a country. E.g. 'Eastern Africa'
+```python
+countries=rc.get_countries_by_subregion("Eastern Africa")
+```
+
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
