@@ -1,7 +1,13 @@
 [![Requirements Status](https://requires.io/github/allansifuna/Flask-RestCountries/requirements.svg?branch=main)](https://requires.io/github/allansifuna/Flask-RestCountries/requirements/?branch=main)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/95668732c0014077abf06e7826c1becf)](https://www.codacy.com/manual/allansifuna/Flask-RestCountries?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=allansifuna/Flask-RestCountries&amp;utm_campaign=Badge_Grade)
 [![Coverage Status](https://coveralls.io/repos/github/allansifuna/Flask-RestCountries/badge.svg?branch=main)](https://coveralls.io/github/allansifuna/Flask-RestCountries?branch=main)
-
+![Top language](https://img.shields.io/github/languages/top/allansifuna/Flask-RestCountries)
+![Code size](https://img.shields.io/github/languages/code-size/allansifuna/Flask-RestCountries?color=dark-green)
+![GitHub](https://img.shields.io/github/license/allansifuna/Flask-RestCountries?color=dark-green)
+![PyPI](https://img.shields.io/pypi/v/Flask-RestCountries)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Flask-RestCountries?color=dark-green)
+![PyPI - Implementation](https://img.shields.io/pypi/implementation/Flask-RestCountries?color=yellow)
+![PyPI - Status](https://img.shields.io/pypi/status/Flask-RestCountries)
 # Flask-RestCountries
 [Flask-RestCountries](https://pypi.org/project/Flask-RestCountries/) provides a simple intergration for [restcountries.eu](https://restcountries.eu) API with Flask Applications.
 
