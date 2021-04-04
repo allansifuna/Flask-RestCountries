@@ -6,7 +6,7 @@
 ![GitHub](https://img.shields.io/github/license/allansifuna/Flask-RestCountries?color=dark-green)
 ![PyPI](https://img.shields.io/pypi/v/Flask-RestCountries)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Flask-RestCountries?color=dark-green)
-![PyPI - Implementation](https://img.shields.io/pypi/implementation/Flask-RestCountries?color=yellow)
+![PyPI - Implementation](https://img.shields.io/pypi/implementation/Flask-RestCountries?color=blue)
 ![PyPI - Status](https://img.shields.io/pypi/status/Flask-RestCountries)
 # Flask-RestCountries
 [Flask-RestCountries](https://pypi.org/project/Flask-RestCountries/) provides a simple intergration for [restcountries.eu](https://restcountries.eu) API with Flask Applications.
