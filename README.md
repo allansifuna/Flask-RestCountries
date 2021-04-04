@@ -89,6 +89,42 @@ countries=rc.get_countries_by_region("Africa")
 countries=rc.get_countries_by_subregion("Eastern Africa")
 ```
 
+## Response Filtering
+To make the response return only afew selected fields, you can filter the response by passing a list
+of field to be returned in the filters keyword as a kwarg to the methods above. ie:-
+
+```python
+countries=rc.get_countries_by_calling_code("+254",filters=["name","currencies","capital"])
+```
+
+## Attributes that can be passed to the filters keyword
+    - topLevelDomain
+    - alpha2Code
+    - alpha3Code
+    - currencies
+    - capital
+    - callingCodes
+    - altSpellings
+    - relevance
+    - region
+    - subregion
+    - translations
+    - population
+    - latlng
+    - demonym
+    - area
+    - gini
+    - timezones
+    - borders
+    - nativeName
+    - name
+    - numericCode
+    - languages
+    - flag
+    - regionalBlocs
+    - cioc
+
+
 ## Attributes of the Country object returned per each request
     - top_level_domain
     - alpha2_code
