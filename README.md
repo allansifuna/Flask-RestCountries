@@ -8,7 +8,7 @@
 ![PyPI - Implementation](https://img.shields.io/pypi/implementation/Flask-RestCountries?color=blue)
 ![PyPI - Status](https://img.shields.io/pypi/status/Flask-RestCountries)
 # Flask-RestCountries
-[Flask-RestCountries](https://pypi.org/project/Flask-RestCountries/) provides a simple intergration for [restcountries.eu](https://restcountries.eu) API with Flask Applications.
+[Flask-RestCountries](https://pypi.org/project/Flask-RestCountries/) provides a simple intergration for [restcountries.com](https://restcountries.com) API with Flask Applications.
 
 # Installation
 
