@@ -36,7 +36,3 @@ class CountriesAPI(RestCountryApiV2):
             'No application found. Either work inside a view function or push'
             ' an application context.'
         )
-
-    # @property
-    # def CountriesAPI(self):
-    #     return RestCountryApiV2

@@ -6,7 +6,7 @@ with open('README.md') as f:
 
 setup(
     name='Flask-RestCountries',
-    version='1.1.3',
+    version='1.2.0',
     url='https://github.com/allansifuna/flask-restcountries',
     license='MIT',
     author='Allan Namasaka Sifuna',
