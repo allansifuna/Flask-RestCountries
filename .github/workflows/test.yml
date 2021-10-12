@@ -22,28 +22,28 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install --upgrade pre-commit
           python -m pip install -e '.[d]'
-          python -m pip install coveralls==2.2.0 pytest==5.2.1 requests-mock==1.8.0
+          python -m pip install coveralls==3.2.0 pytest==5.2.1 requests-mock==1.8.0
       - name: Run tests
         run: |
           coverage run -m pytest flask_restcountries
-      - name: Upload coverage data to coveralls.io
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          COVERALLS_FLAG_NAME: ${{ matrix.python-version }}
-          COVERALLS_PARALLEL: true
-        run: |
-          coveralls --service=github
+  #     - name: Upload coverage data to coveralls.io
+  #       env:
+  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  #         COVERALLS_FLAG_NAME: ${{ matrix.python-version }}
+  #         COVERALLS_PARALLEL: true
+  #       run: |
+  #         coveralls --service=github
 
-  coveralls:
-    name: Indicate completion to coveralls.io
-    # need secrets.GITHUB_TOKEN
-    needs: test
-    runs-on: ubuntu-latest
-    container: python:3-slim
-    steps:
-    - name: Finished
-      run: |
-        pip3 install --upgrade coveralls
-        coveralls --finish
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  # coveralls:
+  #   name: Indicate completion to coveralls.io
+  #   # need secrets.GITHUB_TOKEN
+  #   needs: test
+  #   runs-on: ubuntu-latest
+  #   container: python:3-slim
+  #   steps:
+  #   - name: Finished
+  #     run: |
+  #       pip3 install --upgrade coveralls
+  #       coveralls --finish
+  #     env:
+  #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
